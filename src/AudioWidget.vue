@@ -221,7 +221,6 @@ const handleLike = () => {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  outline: var(--outline) solid green;
   overflow: hidden;
   margin-bottom: 24px;
 }
@@ -278,7 +277,6 @@ const handleLike = () => {
   color: var(--color-foreground);
   width: 48px;
   height: 48px;
-  outline: var(--outline) solid #fff;
   display: flex;
   align-items: center;
   justify-content: center;
