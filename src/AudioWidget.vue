@@ -191,64 +191,64 @@ const handleLike = () => {
 <style scoped>
 .audio-widget {
 	width: 100%;
-  max-width: 480px;
-  border-radius: 16px;
-  padding: 32px;
+	max-width: 480px;
+	border-radius: 16px;
+	padding: 32px;
 
 	font-family: 'Google Sans Text', sans-serif;
 	background-color: var(--color-background);
-  color: var(--color-foreground);
+	color: var(--color-foreground);
 
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: center;
 
 	overflow: hidden;
 	user-select: none;
 
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
 }
 
 .now-playing {
-  display: flex;
+	display: flex;
 }
 
 .song-info {
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  overflow: hidden;
-  margin-bottom: 24px;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	overflow: hidden;
+	margin-bottom: 24px;
 }
 
 .song-title {
 	font-family: 'Google Sans', sans-serif;
-  font-size: 24px;
-  font-weight: 500;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
+	font-size: 24px;
+	font-weight: 500;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 .song-artist {
-  font-size: 16px;
-  font-weight: 400;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-  opacity: 0.5;
+	font-size: 16px;
+	font-weight: 400;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	opacity: 0.5;
 }
 
 .album-art {
-  width: 88px;
-  height: 88px;
-  border-radius: 4px;
-  overflow: hidden;
-  flex-shrink: 0;
+	width: 88px;
+	height: 88px;
+	border-radius: 4px;
+	overflow: hidden;
+	flex-shrink: 0;
 	> img {
 		width: 100%;
 		height: 100%;
@@ -257,30 +257,30 @@ const handleLike = () => {
 }
 
 .audio-progress {
-  margin-bottom: 8px;
+	margin-bottom: 8px;
 }
 
 .controls {
-  max-width: 312px;
-  width: 100%;
-  align-self: center;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 16px;
+	max-width: 312px;
+	width: 100%;
+	align-self: center;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 16px;
 }
 
 .control-button {
-  border-radius: 50%;
-  background: transparent;
-  border: none;
-  color: var(--color-foreground);
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+	border-radius: 50%;
+	background: transparent;
+	border: none;
+	color: var(--color-foreground);
+	width: 48px;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
 	outline: 1px solid #fff0;
 	outline-offset: -1px;
 	position: relative;
@@ -317,8 +317,8 @@ so we don't mess with the hit area. */
 }
 
 .play-pause-button {
-  width: 72px;
-  height: 72px;
+	width: 72px;
+	height: 72px;
 
 	.button-inner {
 		background-color: var(--color-selected);
@@ -330,15 +330,15 @@ so we don't mess with the hit area. */
 }
 
 .control-button .size-s {
-  font-size: 24px;
+	font-size: 24px;
 }
 
 .control-button .size-m {
-  font-size: 36px;
+	font-size: 36px;
 }
 
 .control-button .size-l {
-  font-size: 48px;
+	font-size: 48px;
 }
 
 .favorite-button span {

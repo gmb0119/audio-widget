@@ -77,8 +77,8 @@ const setTime = ( e: MouseEvent | PointerEvent ) => {
 
 <style scoped>
 .progress-bar {
-  width: 100%;
-  position: relative;
+	width: 100%;
+	position: relative;
 	cursor: pointer;
 	height: 20px;
 	&:hover, &.dragging {
@@ -98,7 +98,7 @@ const setTime = ( e: MouseEvent | PointerEvent ) => {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-  background-color: var(--color-bar2);
+	background-color: var(--color-bar2);
 	width: 100%;
 	> * {
 		height: 100%;
@@ -111,11 +111,11 @@ const setTime = ( e: MouseEvent | PointerEvent ) => {
 }
 
 .progress-bar-buffered {
-  background-color: var(--color-bar);
+	background-color: var(--color-bar);
 }
 
 .progress-bar-played {
-  background-color: var(--color-foreground);
+	background-color: var(--color-foreground);
 }
 
 .progress-bar-handle {
@@ -128,15 +128,15 @@ const setTime = ( e: MouseEvent | PointerEvent ) => {
 }
 
 .progress-time {
-  font-size: 12px;
-  opacity: 0.7;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	font-size: 12px;
+	opacity: 0.7;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .audio-progress {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 </style>
